@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+.bg_wpay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.me_main {
+    position: relative;
+    z-index: 1;
+}
+
+.me_main .me_personal_container {
+    padding: 20px 0 30px;
+}
+
+.me_main .me_personal_container .me_personal_touch_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.me_main .me_personal_container .me_personal_box {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.me_main .me_personal_container .me_personal_box .me_avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: url(../images/trade/img_avatar.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.me_main .me_personal_container .me_personal_box .me_personal_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.me_main .me_personal_container .me_personal_box .me_personal_info .me_name_box {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.me_main .me_personal_container .me_personal_box .me_personal_info .me_name {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0C1115;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 130px;
+    padding-right: 5px;
+}
+
+.me_main .me_personal_container .me_personal_box .me_personal_info .me_id_box {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    color: #0C1115;
+    font-size: 11px;
+}
+
+.me_main .me_personal_container .me_personal_box .me_personal_info .me_id {
+    font-size: 11px;
+    padding: 1px 5px;
+    background: #fff;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.me_main .me_personal_container .me_personal_box .me_personal_info .me_wallet_address_box {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #008BEF;
+    cursor: pointer;
+}
+
+.me_main .me_personal_container .me_personal_box .me_personal_info .me_wallet_address_box .pr_5 {
+    padding-right: 5px;
+}
+
+.me_main .me_personal_container .me_infomore {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    cursor:pointer;
+}
+
+.me_main .me_verify_section {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.me_main .me_verify_section .me_verify_box {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.me_main .me_verify_section .me_verify_box:last-child {
+    margin-right: 0;
+}
+
+.me_main .me_verify_section .me_verify_box img {
+    padding-right: 5px;
+}
+
+.me_main .me_verify_section .me_verify_box .me_verify_text {
+    font-size: 12px;
+    color: #0C1115;
+}
+
+.me_main .me_account_balance_section {
+    background: #0080FF;
+    border-radius: 8px;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+}
+
+.me_main .me_account_balance_section .me_account_balance_box {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.me_main .me_account_balance_section .me_account_balance_box .me_account_balance_text {
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.me_main .me_account_balance_section .me_account_balance_box .me_account_balance_hide {
+    cursor: pointer;
+}
+
+
+.me_main .me_account_balance_section .me_account_balance_total_box {
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+}
+
+.me_main .me_account_balance_section .me_account_balance_total_box .me_account_balance_total {
+    font-size: 26px;
+    font-family: 'din_alternatebold';
+    padding-right: 5px;
+}
+
+.me_main .me_account_balance_section .me_account_balance_total_box .me_account_balance_equaltext {
+    font-size: 12px;
+}
+
+.me_main .me_common_functions_section {
+    background: #fff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.me_main .me_common_functions_section .me_common_functions_top {
+    font-size: 12px;
+    font-weight: 500;
+    color: #0C1115;
+    padding: 12px 10px;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.me_main .me_common_functions_section .me_common_functions_iconbox {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    padding: 6px 5px 10px 5px;
+}
+
+.me_main .me_common_functions_section .me_common_functions_iconbox .me_common_functions_icon {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+    cursor:pointer;
+}
+
+.me_main .me_common_functions_section .me_common_functions_iconbox .me_common_functions_icon .me_common_functions_icontext {
+    padding-top: 5px;
+}
